@@ -10,6 +10,7 @@ import CoverImage06 from "./assets/images/img06.jpg";
 import AboutUs from "./components/aboutus";
 import CoverInfo from "./components/coverinfo";
 import HomeFooter from "./components/home_footer";
+import FourSection from "./components/four_section";
 
 function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -47,6 +48,7 @@ function App() {
         </div>
       </div>
       <AboutUs />
+      <FourSection />
     </div>
   );
 }
