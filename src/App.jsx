@@ -11,6 +11,7 @@ import AboutUs from "./components/aboutus";
 import CoverInfo from "./components/coverinfo";
 import HomeFooter from "./components/home_footer";
 import FourSection from "./components/four_section";
+import Break01 from "./components/break01";
 
 function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -49,6 +50,7 @@ function App() {
       </div>
       <AboutUs />
       <FourSection />
+      <Break01 />
     </div>
   );
 }
