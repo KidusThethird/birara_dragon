@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         playwrite: ['"Playwrite DE Grund"', "sans-serif"],
         oswald: ['"Oswald"', "sans-serif"], // Add your font here
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
