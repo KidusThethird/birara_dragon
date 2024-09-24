@@ -10,14 +10,42 @@ export default function NavBar() {
         </div>
         <div className="text-white my-auto col-span-3 w-full ">
           <div className="flex justify-around font-playwrite">
-            <a href="" className="">
+            <a
+              href=""
+              className="hover:text-sky-600 hover:scale-105 duration-100"
+            >
               Home
             </a>
-            <a href="">About Us</a>
-            <a href="">Products</a>
-            <a href="">Gallery</a>
-            <a href="">Events and Articles</a>
-            <a href="">Contacts</a>
+            <a
+              href=""
+              className="hover:text-sky-600 hover:scale-105 duration-100"
+            >
+              About Us
+            </a>
+            <a
+              href=""
+              className="hover:text-sky-600 hover:scale-105 duration-100"
+            >
+              Products
+            </a>
+            <a
+              href=""
+              className="hover:text-sky-600 hover:scale-105 duration-100"
+            >
+              Gallery
+            </a>
+            <a
+              href=""
+              className="hover:text-sky-600 hover:scale-105 duration-100"
+            >
+              Events and Articles
+            </a>
+            <a
+              href=""
+              className="hover:text-sky-600 hover:scale-105 duration-100"
+            >
+              Contacts
+            </a>
           </div>
         </div>
       </div>

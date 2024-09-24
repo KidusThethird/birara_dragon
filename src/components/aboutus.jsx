@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import logo from "../assets/images/logo01.png";
 
 export default function AboutUs() {
@@ -9,10 +10,16 @@ export default function AboutUs() {
 
       <div className="w-full grid grid-cols-2 relative z-10">
         <div className="flex">
-          <img
+          <motion.img
             src={logo}
             alt="Logo"
             className="w-full col-span-1 my-auto h-fit mx-auto"
+            animate={{ y: [0, -10, 0] }} // Float effect
+            transition={{
+              duration: 2,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
           />
         </div>
         <div className="my-4 col-span-1 space-y-2 pr-8 text-gray-800 font-montserrat">

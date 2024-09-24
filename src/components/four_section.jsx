@@ -38,10 +38,26 @@ export default function FourSection() {
             </h1>
           </div>
           <div className="grid grid-cols-2 gap-4 m-8">
-            <img src={Image01} alt="" className="rounded-2xl" />
-            <img src={Image02} alt="" className="rounded-2xl" />
-            <img src={Image03} alt="" className="rounded-2xl" />
-            <img src={Image04} alt="" className="rounded-2xl" />
+            <img
+              src={Image01}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
+            <img
+              src={Image02}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
+            <img
+              src={Image03}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
+            <img
+              src={Image04}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
           </div>
         </div>
       </div>
@@ -49,10 +65,26 @@ export default function FourSection() {
       <div>
         <div className="w-full grid grid-cols-2">
           <div className="grid grid-cols-2 gap-4 m-8">
-            <img src={Image05} alt="" className="rounded-2xl" />
-            <img src={Image06} alt="" className="rounded-2xl" />
-            <img src={Image07} alt="" className="rounded-2xl" />
-            <img src={Image08} alt="" className="rounded-2xl" />
+            <img
+              src={Image05}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
+            <img
+              src={Image06}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
+            <img
+              src={Image07}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
+            <img
+              src={Image08}
+              alt=""
+              className="rounded-2xl hover:shadow-2xl shadow-sky-900 hover:scale-105 duration-150 cursor-pointer"
+            />
           </div>
           <div className="my-auto">
             <h1 className="p-8">

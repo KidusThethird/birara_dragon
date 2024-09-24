@@ -74,7 +74,7 @@ export default function CoverInfo() {
           {content[index].description}
         </motion.h2>
 
-        <button className="text-white bg-sky-900 px-14 py-4 rounded-2xl">
+        <button className="text-white bg-sky-900 px-14 py-4 rounded-2xl hover:text-sky-900 hover:bg-white duration-150">
           Learn More
         </button>
       </div>
