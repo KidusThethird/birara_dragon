@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playwrite: ['"Playwrite DE Grund"', "sans-serif"],
+        oswald: ['"Oswald"', "sans-serif"], // Add your font here
+      },
+    },
   },
   plugins: [],
-}
-
+};
