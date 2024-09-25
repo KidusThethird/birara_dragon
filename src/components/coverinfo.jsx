@@ -48,7 +48,7 @@ export default function CoverInfo() {
   }, []);
 
   return (
-    <div className="text-white">
+    <div className="text-white pt-24">
       <div className="sm:w-1/2 mx-6 my-16 space-y-6 py-6">
         <motion.div
           className="text-3xl sm:text-5xl font-semibold font-oswald"

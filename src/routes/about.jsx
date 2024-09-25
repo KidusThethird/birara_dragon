@@ -4,7 +4,7 @@ import OurMission from "../components/our_mission";
 
 export default function About() {
   return (
-    <div>
+    <div className="pt-14 sm:pt-36">
       <AboutUs />
       <OurMission />
     </div>

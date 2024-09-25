@@ -11,6 +11,7 @@ export default function NavBar() {
   };
 
   let CompName = "blank";
+  let pathName = window.location.pathname;
   switch (window.location.pathname) {
     case "/":
       CompName = "Home";
@@ -19,25 +20,35 @@ export default function NavBar() {
 
   return (
     <div
-      className={`${
-        CompName == "Home" ? "" : "bg-sky-900 bg-opacity-20 text-gray-700"
+      className={`z-50 fixed w-full flex ${
+        CompName == "Home"
+          ? "text-white bg-opacity-30 bg-black "
+          : "bg-sky-900 bg-opacity-20 text-gray-700"
       }`}
     >
-      <div className="hidden md:grid grid-cols-6 w-full ">
+      <div
+        className={`hidden   md:grid grid-cols-6 w-full ${
+          CompName == "Home" ? "bg-white" : "bg-white"
+        }}`}
+      >
         <div className="col-span-1">
           <img src={logo} alt="" className="w-full " />
         </div>
         <div className=" my-auto col-span-5 w-full ">
           <div className="flex space-x-6 font-playwrite">
             <a
-              href=""
-              className="hover:text-sky-600 hover:scale-105 duration-100"
+              href="/"
+              className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                pathName == "/" ? "text-sky-600" : ""
+              }`}
             >
               Home
             </a>
             <a
-              href=""
-              className="hover:text-sky-600 hover:scale-105 duration-100"
+              href="/about"
+              className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                pathName == "/about" ? "text-sky-600" : ""
+              }`}
             >
               About Us
             </a>
@@ -68,7 +79,7 @@ export default function NavBar() {
           </div>
         </div>
       </div>
-      <div className="hidden md:block border-b-2 border-gray-300 w-5/6 mx-auto"></div>
+      {/* <div className="hidden md:block border-b-2 bg-yellow-200 border-gray-300 w-5/6 mx-auto"></div> */}
 
       <div className="block md:hidden relative w-full">
         <div
@@ -84,9 +95,24 @@ export default function NavBar() {
           transition={{ duration: 0.3 }} // Smooth transition without bounce
           className="absolute top-14 bg-gray-400 w-3/4 rounded-br-3xl shadow-2xl shadow-sky-900"
         >
-          <div className="px-8 space-y-3 py-3">
-            <h1>Home</h1>
-            <h1>About Us</h1>
+          <div className="px-8 flex flex-col space-y-3 py-3">
+            <a
+              href="/"
+              className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                pathName == "/" ? "text-sky-600" : ""
+              }`}
+            >
+              Home
+            </a>
+            <a
+              href="/about"
+              className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                pathName == "/about" ? "text-sky-800" : ""
+              }`}
+            >
+              About us
+            </a>
+
             <h1>Products</h1>
             <h1>Gallery</h1>
             <h1>Events and Articles</h1>
