@@ -49,9 +49,9 @@ export default function CoverInfo() {
 
   return (
     <div className="text-white">
-      <div className="w-1/2 mx-6 my-16 space-y-6 py-6">
+      <div className="sm:w-1/2 mx-6 my-16 space-y-6 py-6">
         <motion.div
-          className="text-5xl font-semibold font-oswald"
+          className="text-3xl sm:text-5xl font-semibold font-oswald"
           variants={staggeredAnimation}
           initial="initial"
           animate="animate"
@@ -64,7 +64,7 @@ export default function CoverInfo() {
         </motion.div>
 
         <motion.h2
-          className="text-xl"
+          className="text-base sm:text-xl"
           initial={{ opacity: 0, y: 20 }} // Starting state for description
           animate={{ opacity: 1, y: 0 }} // End state
           exit={{ opacity: 0, y: 20 }} // Exit state
@@ -74,7 +74,7 @@ export default function CoverInfo() {
           {content[index].description}
         </motion.h2>
 
-        <button className="text-white bg-sky-900 px-14 py-4 rounded-2xl hover:text-sky-900 hover:bg-white duration-150">
+        <button className="text-white bg-sky-900 px-7 sm:px-14 py-2 sm:py-4 rounded-2xl hover:text-sky-900 hover:bg-white duration-150">
           Learn More
         </button>
       </div>
