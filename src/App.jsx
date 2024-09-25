@@ -51,6 +51,8 @@ function App() {
         </div>
       </div>
       <AboutUs />
+      <Break01 />
+
       <FourSection />
       <Break01 />
       <OurMission />

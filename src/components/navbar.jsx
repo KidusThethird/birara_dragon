@@ -71,7 +71,7 @@ export default function NavBar() {
           initial={{ x: "-100%" }}
           animate={{ x: drawer ? "0%" : "-100%" }}
           transition={{ duration: 0.3 }} // Smooth transition without bounce
-          className="absolute top-14 bg-gray-400 w-3/4"
+          className="absolute top-14 bg-gray-400 w-3/4 rounded-br-3xl shadow-2xl shadow-sky-900"
         >
           <div className="px-8 space-y-3 py-3">
             <h1>Home</h1>
