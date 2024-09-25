@@ -9,6 +9,17 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
       },
     },
+    screens: {
+      vsm: "400px",
+      smx: "500px",
+      sm: "640px",
+      ms: "700px",
+      md: "768px",
+      lmd: "950px",
+      lg: "1024px",
+      xl: "1280px",
+      xl2: "1440px", // Custom screen size
+    },
   },
   plugins: [],
 };

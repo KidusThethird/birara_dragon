@@ -22,7 +22,7 @@ export default function AboutUs() {
             }}
           />
         </div>
-        <div className="my-4 col-span-1 space-y-2 pr-8 text-gray-800 font-montserrat">
+        <div className="my-4 col-span-1 text-sm space-y-2 pr-8 text-gray-800 font-montserrat">
           <h1 className="text-2xl font-semibold">About Us</h1>
           <p>
             At Birara Dragon Bridge General Trading, we are committed to
