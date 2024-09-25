@@ -14,8 +14,30 @@ import FourSection from "./components/four_section";
 import Break01 from "./components/break01";
 import OurMission from "./components/our_mission";
 import Footer from "./components/footer";
-
+import Home from "./routes/home";
+import About from "./routes/about";
 function App() {
+  let Component = "test";
+  let CompName = "blank";
+  switch (window.location.pathname) {
+    case "/":
+      Component = Home;
+      CompName = "Home";
+      break;
+    case "/about":
+      Component = About;
+      break;
+    case "/services":
+      Component = Services;
+      break;
+    case "/help":
+      Component = HelpSection;
+      break;
+    case "/contact":
+      Component = Contact;
+      break;
+  }
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
     CoverImage01,
@@ -36,29 +58,60 @@ function App() {
 
   return (
     <div>
-      <div className="relative h-screen bg-red-200">
-        <div
-          className="bg-cover bg-center h-full transition-opacity duration-700"
-          style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-        >
-          <div className="absolute inset-0 bg-black opacity-70"></div>{" "}
-          {/* Dark overlay */}
-        </div>
-        <div className="z-50 absolute top-0 w-full">
-          <NavBar />
-          <CoverInfo />
-          <HomeFooter />
-        </div>
-      </div>
-      <AboutUs />
-      <Break01 />
+      <div className="relative h-screen ">
+        {CompName == "Home" && (
+          <div
+            className="bg-cover bg-center h-full transition-opacity duration-700"
+            style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+          >
+            <div className="absolute inset-0 bg-black opacity-70"></div>{" "}
+            {/* Dark overlay */}
+          </div>
+        )}
+        {CompName == "Home" ? (
+          <div>
+            <div className="z-50 absolute top-0 w-full">
+              <NavBar />
+              <CoverInfo />
+              <HomeFooter />
+            </div>
 
-      <FourSection />
-      <Break01 />
-      <OurMission />
-      <Footer />
+            <Home />
+            <Footer />
+          </div>
+        ) : (
+          <div>
+            <NavBar />
+            <Component />
+            <Footer />
+          </div>
+        )}
+        {/* <div>
+          <div className="z-50 absolute top-0 w-full">
+            <NavBar />
+            <CoverInfo />
+            <HomeFooter />
+          </div>
+
+          <Home />
+          <Footer />
+        </div> */}
+      </div>
     </div>
   );
 }
 
 export default App;
+
+{
+  /* <div>
+<div className="z-50 absolute top-0 w-full">
+  <NavBar />
+  <CoverInfo />
+  <HomeFooter />
+</div>
+
+<Home />
+<Footer />
+</div> */
+}

@@ -10,13 +10,24 @@ export default function NavBar() {
     setDrawer(!drawer);
   };
 
+  let CompName = "blank";
+  switch (window.location.pathname) {
+    case "/":
+      CompName = "Home";
+      break;
+  }
+
   return (
-    <div className="">
+    <div
+      className={`${
+        CompName == "Home" ? "" : "bg-sky-900 bg-opacity-20 text-gray-700"
+      }`}
+    >
       <div className="hidden md:grid grid-cols-6 w-full ">
         <div className="col-span-1">
           <img src={logo} alt="" className="w-full " />
         </div>
-        <div className="text-white my-auto col-span-5 w-full ">
+        <div className=" my-auto col-span-5 w-full ">
           <div className="flex space-x-6 font-playwrite">
             <a
               href=""
