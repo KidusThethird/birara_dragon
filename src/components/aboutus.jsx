@@ -8,12 +8,12 @@ export default function AboutUs() {
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-sky-400 via-gray-100 to-white opacity-25 z-0"></div>
 
-      <div className="w-full grid grid-cols-2 relative z-10">
+      <div className="w-full sm:grid grid-cols-2 relative z-10">
         <div className="flex">
           <motion.img
             src={logo}
             alt="Logo"
-            className="w-full col-span-1 my-auto h-fit mx-auto"
+            className="w-1/2 sm:w-full col-span-1 my-auto h-fit mx-auto"
             animate={{ y: [0, -10, 0] }} // Float effect
             transition={{
               duration: 2,
@@ -22,7 +22,7 @@ export default function AboutUs() {
             }}
           />
         </div>
-        <div className="my-4 col-span-1 text-sm space-y-2 pr-8 text-gray-800 font-montserrat">
+        <div className=" px-6 sm:px-0 my-4 col-span-1 text-sm space-y-2 pr-8 text-gray-800 font-montserrat">
           <h1 className="text-2xl font-semibold">About Us</h1>
           <p>
             At Birara Dragon Bridge General Trading, we are committed to

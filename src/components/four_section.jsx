@@ -12,7 +12,7 @@ export default function FourSection() {
   return (
     <div className="text-gray-800 font-montserrat">
       <div>
-        <div className="w-full grid grid-cols-2">
+        <div className="w-full md:grid grid-cols-2">
           <div className="my-auto">
             <h1 className="p-8">
               At Birara Dragon Bridge General Trading, we are dedicated to
@@ -63,7 +63,7 @@ export default function FourSection() {
       </div>
 
       <div>
-        <div className="w-full grid grid-cols-2">
+        <div className="w-full flex flex-col-reverse md:grid grid-cols-2">
           <div className="grid grid-cols-2 gap-4 m-8">
             <img
               src={Image05}

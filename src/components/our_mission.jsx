@@ -3,7 +3,7 @@ import { Activity, LifeBuoy, Footprints, Home } from "lucide-react";
 export default function OurMission() {
   return (
     <div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid grid-cols-2">
         <div className="p-16 space-y-7">
           <h1 className="text-2xl font-semibold">Our Mission</h1>
           <h1>

@@ -5,9 +5,9 @@ import { Facebook, Instagram, Phone } from "lucide-react";
 export default function Footer() {
   return (
     <div className="text-white bg-sky-900 p-6">
-      <div className="flex">
+      <div className="sm:flex space-y-4 sm:space-y-0">
         <img src={logo} className="w-1/6 bg-white rounded-full" alt="" />
-        <div className="my-auto flex space-x-24 px-10">
+        <div className="my-auto sm:flex sm:space-x-24 px-10 space-y-4 sm:space-y-0">
           <h1>Home</h1>
           <h1>About Us</h1>
           <h1>Products</h1>
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-b-2 py-3 border-white w-1/2 mx-auto"></div>
+      <div className="border-b-2 py-6 sm:py-3 border-white w-1/2 mx-auto"></div>
     </div>
   );
 }
