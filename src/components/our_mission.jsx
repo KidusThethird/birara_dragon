@@ -7,7 +7,7 @@ export default function OurMission() {
         <div className="p-16 space-y-7">
           <h1 className="text-2xl font-semibold">Our Mission</h1>
           <h1>
-            At Birara Dragon Bridge General Yrading, our mission is to enhance
+            At Birara Dragon Bridge General Trading, our mission is to enhance
             lives and empower businesses by delivering high-quality products and
             exceptional services across a wide range of sectors. We are
             committed to sourcing and supplying everything from medical supplies
