@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import NavBar from "./components/navbar";
-import CoverImage01 from "./assets/images/img01.jpg";
-import CoverImage02 from "./assets/images/img02.jpg";
-import CoverImage03 from "./assets/images/img03.jpg";
-import CoverImage04 from "./assets/images/img04.jpg";
-import CoverImage05 from "./assets/images/img05.jpg";
-import CoverImage06 from "./assets/images/img06.jpg";
+import CoverImage01 from "./assets/images/new/img01.png";
+import CoverImage02 from "./assets/images/new/img02.png";
+import CoverImage03 from "./assets/images/new/img03.png";
+import CoverImage04 from "./assets/images/new/img04.png";
+// import CoverImage05 from "./assets/images/img05.jpg";
+// import CoverImage06 from "./assets/images/img06.jpg";
 
 import AboutUs from "./components/aboutus";
 import CoverInfo from "./components/coverinfo";
@@ -44,8 +44,8 @@ function App() {
     CoverImage02,
     CoverImage03,
     CoverImage04,
-    CoverImage05,
-    CoverImage06,
+    // CoverImage05,
+    // CoverImage06,
   ];
 
   useEffect(() => {

@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
 const texts = [
-  "Welcome to Our Company!",
-  "Quality Medical Supplies & Equipment.",
+  "Premium Construction Materials.",
+  "Stylish Home Accents.",
+
+  "Efficient Machinery Shipping Solutions.",
   "Innovative Machinery & Electronics.",
-  "Trendy Fashion & Apparel.",
-  "Expert Business Consulting Services.",
 ];
 
 export default function HomeFooter() {

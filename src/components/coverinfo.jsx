@@ -3,24 +3,24 @@ import { motion } from "framer-motion";
 
 const content = [
   {
-    title: "Medical Supplies & Equipment",
+    title: "Construction Materials & Furnishings",
     description:
-      "Supplying a wide range of medical products, including premium-quality scrubs and essential equipment for hospitals and clinics.",
+      "High-quality building materials and modern furnishings for residential and commercial projects, combining durability and style.",
   },
   {
-    title: "Cars, Machinery & Electronics",
+    title: "Stylish Home Enhancements",
     description:
-      "Sourcing automobiles and heavy machinery, along with advanced technology for industrial and personal use.",
+      "Transform your space with modern decor and furnishings that elevate your home's aesthetic and functionality.",
   },
   {
-    title: "Fashion & Apparel",
+    title: "Efficient Machinery Shipping Solutions",
     description:
-      "Offering wholesale fashion items and 100% human hair products to keep up with the latest global trends.",
+      "Streamlined shipping services for heavy machinery, ensuring safe and timely delivery to your industrial and commercial sites.",
   },
   {
-    title: "Business Consulting & Sourcing",
+    title: "Elegant Tiles & Home Accents",
     description:
-      "Providing expert consulting solutions to help businesses optimize operations and access international markets.",
+      "Explore a stunning selection of tiles and home decor solutions to elevate your living spaces with style and sophistication.",
   },
 ];
 
