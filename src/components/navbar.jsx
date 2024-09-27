@@ -67,19 +67,13 @@ export default function NavBar() {
                   href=""
                   className="hover:text-sky-600 hover:scale-105 duration-100"
                 >
-                  Products
+                  Services
                 </a>
                 <a
                   href=""
                   className="hover:text-sky-600 hover:scale-105 duration-100"
                 >
-                  Gallery
-                </a>
-                <a
-                  href=""
-                  className="hover:text-sky-600 hover:scale-105 duration-100"
-                >
-                  Events and Articles
+                  Team
                 </a>
               </div>{" "}
               <div>
@@ -127,9 +121,9 @@ export default function NavBar() {
                 About us
               </a>
 
-              <h1>Products</h1>
-              <h1>Gallery</h1>
-              <h1>Events and Articles</h1>
+              <h1>Services</h1>
+              <h1>Team</h1>
+
               <h1>Contacts</h1>
             </div>
           </motion.div>
