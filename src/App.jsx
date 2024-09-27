@@ -17,6 +17,9 @@ import Footer from "./components/footer";
 import Home from "./routes/home";
 import About from "./routes/about";
 import Footer2 from "./components/footer2";
+import OurServices from "./components/our_services";
+import Services from "./routes/services";
+import OurTeam from "./routes/ourteam";
 function App() {
   let Component = "test";
   let CompName = "blank";
@@ -31,8 +34,8 @@ function App() {
     case "/services":
       Component = Services;
       break;
-    case "/help":
-      Component = HelpSection;
+    case "/team":
+      Component = OurTeam;
       break;
     case "/contact":
       Component = Contact;

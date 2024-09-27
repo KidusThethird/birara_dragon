@@ -65,14 +65,18 @@ export default function NavBar() {
                   About Us
                 </a>
                 <a
-                  href=""
-                  className="hover:text-sky-600 hover:scale-105 duration-100"
+                  href="/services"
+                  className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                    pathName == "/services" ? "text-sky-600" : ""
+                  }`}
                 >
                   Services
                 </a>
                 <a
-                  href=""
-                  className="hover:text-sky-600 hover:scale-105 duration-100"
+                  href="/team"
+                  className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                    pathName == "/team" ? "text-sky-600" : ""
+                  }`}
                 >
                   Team
                 </a>
@@ -122,8 +126,22 @@ export default function NavBar() {
                 About us
               </a>
 
-              <h1>Services</h1>
-              <h1>Team</h1>
+              <a
+                href="/services"
+                className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                  pathName == "/services" ? "text-sky-800" : ""
+                }`}
+              >
+                Services
+              </a>
+              <a
+                href="/team"
+                className={`hover:text-sky-600 hover:scale-105 duration-100 ${
+                  pathName == "/team" ? "text-sky-800" : ""
+                }`}
+              >
+                Team
+              </a>
 
               <h1>Contacts</h1>
             </div>
