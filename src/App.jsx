@@ -16,6 +16,7 @@ import OurMission from "./components/our_mission";
 import Footer from "./components/footer";
 import Home from "./routes/home";
 import About from "./routes/about";
+import Footer2 from "./components/footer2";
 function App() {
   let Component = "test";
   let CompName = "blank";
@@ -75,9 +76,8 @@ function App() {
               <CoverInfo />
               <HomeFooter />
             </div>
-
             <Home />
-            <Footer />
+            {/* <Footer /> */} <Footer2 />
           </div>
         ) : (
           <div>
@@ -87,7 +87,8 @@ function App() {
             <div className="z-10 ">
               {" "}
               <Component />
-              <Footer />
+              {/* <Footer /> */}
+              <Footer2 />
             </div>
           </div>
         )}

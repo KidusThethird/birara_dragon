@@ -1,5 +1,5 @@
 import logo from "../assets/images/logo01.png";
-import logosmall from "../assets/images//smalllogo2.png";
+import logosmall from "../assets/images/smalllogo2.png";
 import { X, Menu, Facebook, Instagram, Youtube } from "lucide-react";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
