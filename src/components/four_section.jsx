@@ -72,7 +72,7 @@ export default function FourSection() {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <div className="w-full flex flex-col-reverse md:grid grid-cols-2">
           <div className="grid grid-cols-2 gap-4 m-8">
             <img
@@ -122,7 +122,7 @@ export default function FourSection() {
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
