@@ -1,4 +1,5 @@
 import logo from "../assets/images/logo01.png";
+import logosmall from "../assets/images//smalllogo2.png";
 import { X, Menu, Facebook, Instagram, Youtube } from "lucide-react";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -95,7 +96,7 @@ export default function NavBar() {
             className="flex cursor-pointer justify-between px-4 bg-gray-400 text-sky-900"
           >
             {drawer ? <X className="my-auto" /> : <Menu className="my-auto" />}
-            <img src={logo} className="w-24" alt="" />
+            <img src={logosmall} className="w-fit" alt="" />
           </div>
           <motion.div
             initial={{ x: "-100%" }}
