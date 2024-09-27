@@ -81,9 +81,14 @@ function App() {
           </div>
         ) : (
           <div>
-            <NavBar />
-            <Component />
-            <Footer />
+            <div className="z-50 absolute top-0 w-full ">
+              <NavBar />
+            </div>{" "}
+            <div className="z-10 ">
+              {" "}
+              <Component />
+              <Footer />
+            </div>
           </div>
         )}
         {/* <div>
