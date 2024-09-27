@@ -86,7 +86,7 @@ export default function NavBar() {
                   href=""
                   className="hover:text-sky-600 hover:bg-gray-200 bg-sky-600 p-2 rounded hover:scale-105 duration-100"
                 >
-                  Contacts
+                  Contact Us
                 </a>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function NavBar() {
                 Team
               </a>
 
-              <h1>Contacts</h1>
+              <h1>Contact Us</h1>
             </div>
           </motion.div>
         </div>
