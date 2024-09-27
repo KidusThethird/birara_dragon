@@ -43,7 +43,7 @@ export default function Footer2() {
           </a>
           <a href="/about">About Us</a>
           <a href="/services"> Services</a>
-          <h1 href="/team">Team</h1>
+          <a href="/team">Team</a>
         </div>
         <div>
           <h1 className="text-xl font-semibold py-2">Services</h1>
