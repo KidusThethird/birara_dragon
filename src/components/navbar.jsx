@@ -33,7 +33,7 @@ export default function NavBar() {
         className={`z-50  w-full flex ${
           CompName == "Home"
             ? "text-white bg-opacity-50 bg-black "
-            : "bg-sky-900 text-black bg-opacity-30 "
+            : "bg-sky-900 text-white bg-opacity-30 "
         }`}
       >
         <div
@@ -42,7 +42,7 @@ export default function NavBar() {
           }}`}
         >
           <div className="col-span-1">
-            <img src={logo} alt="" className="w-fit " />
+            <img src={logo} alt="" className="w-3/4 " />
           </div>
           <div className=" my-auto col-span-5 w-full ">
             <div className="flex  justify-between px-10 font-playwrite">
