@@ -1,5 +1,8 @@
 import React from "react";
 import HumanImage from "../assets/images/human.png";
+import Img1 from "../assets/images/team/img01.jpg";
+import Img2 from "../assets/images/team/img02.jpg";
+import Img3 from "../assets/images/team/img03.jpg";
 
 export default function Team() {
   return (
@@ -12,34 +15,38 @@ export default function Team() {
       <div className="w-full space-y-4 sm:space-y-0 sm:grid grid-cols-3 gap-4 px-6 rounded">
         <div className="p-8 border-2 border-sky-900 rounded-lg">
           <div>
-            <img src={HumanImage} alt="" />
+            <img src={Img1} alt="" />
           </div>
           <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">Emily Carter</h1>{" "}
-            <h1 className="text-center font-semibold ">CEO</h1>
+            <h1 className="text-center text-lg font-playwrite">Feven Birara</h1>{" "}
+            <h1 className="text-center font-semibold ">General Manager</h1>
           </div>
         </div>
 
         <div className="p-8 border-2 border-sky-900 rounded-lg">
           <div>
-            <img src={HumanImage} alt="" />
+            <img src={Img2} alt="" />
           </div>
           <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">Michael Chen</h1>{" "}
+            <h1 className="text-center text-lg font-playwrite">
+              Tiziana Huang
+            </h1>{" "}
             <h1 className="text-center font-semibold ">
-              Director of Operations
+              Logistics and Supply chain coordinator
             </h1>
           </div>
         </div>
 
         <div className="p-8 border-2 border-sky-900 rounded-lg">
           <div>
-            <img src={HumanImage} alt="" />
+            <img src={Img3} alt="" />
           </div>
           <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">Sophia Patel</h1>{" "}
+            <h1 className="text-center text-lg font-playwrite">
+              Daniele Pinti
+            </h1>{" "}
             <h1 className="text-center font-semibold ">
-              Head of Marketing and Sales
+              Chief Operating Officer
             </h1>
           </div>
         </div>
