@@ -17,10 +17,15 @@ const content = [
     description:
       "Streamlined shipping services for heavy machinery, ensuring safe and timely delivery to your industrial and commercial sites.",
   },
+  // {
+  //   title: "Elegant Tiles & Home Accents",
+  //   description:
+  //     "Explore a stunning selection of tiles and home decor solutions to elevate your living spaces with style and sophistication.",
+  // },
   {
-    title: "Elegant Tiles & Home Accents",
+    title: "Radiant Beauty Essentials",
     description:
-      "Explore a stunning selection of tiles and home decor solutions to elevate your living spaces with style and sophistication.",
+      "Discover an exquisite range of beauty products designed to enhance your natural glow and elevate your skincare routine.",
   },
 ];
 

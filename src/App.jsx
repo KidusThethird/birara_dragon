@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import NavBar from "./components/navbar";
-import CoverImage01 from "./assets/images/new/img01.png";
-import CoverImage02 from "./assets/images/new/img02.png";
-import CoverImage03 from "./assets/images/new/img03.png";
-import CoverImage04 from "./assets/images/new/img04.png";
+import CoverImage01 from "./assets/images/new2/img01.jpg";
+import CoverImage02 from "./assets/images/new2/img02.jpg";
+import CoverImage03 from "./assets/images/new2/img03.jpg";
+import CoverImage04 from "./assets/images/new2/img04.jpg";
 import AboutUs from "./components/aboutus";
 import CoverInfo from "./components/coverinfo";
 import HomeFooter from "./components/home_footer";
@@ -86,7 +86,7 @@ function App() {
             <div className="z-50 absolute top-0 w-full">
               <NavBar />
               <CoverInfo />
-              <HomeFooter />
+              {/* <HomeFooter /> */}
             </div>
             <Home />
             <Footer2 />
