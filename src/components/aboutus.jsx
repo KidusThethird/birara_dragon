@@ -8,8 +8,8 @@ export default function AboutUs() {
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-sky-400 via-gray-100 to-white opacity-25 z-0"></div>
 
-      <div className="w-full sm:grid grid-cols-2 relative z-10">
-        <div className="flex">
+      <div className="w-full  relative z-10">
+        {/* <div className="flex">
           <motion.img
             src={logo}
             alt="Logo"
@@ -21,37 +21,22 @@ export default function AboutUs() {
               ease: "easeInOut",
             }}
           />
-        </div>
-        <div className=" px-6 sm:px-0 my-4 col-span-1 text-sm space-y-2 pr-8 text-gray-800 font-montserrat">
+        </div> */}
+        <div className="mx-7  px-6 sm:px-0 my-4 p-7 text-sm space-y-2 pr-8 text-gray-800 font-montserrat">
           <h1 className="text-2xl font-semibold">About Us</h1>
-          <p>
-            At Birara Dragon Bridge General Trading, we are committed to
-            providing high-quality products and services across various
-            industries.
-          </p>
-          <h1>Medical Supplies</h1>
-          <p>
-            We offer medical products, including scrubs and essential equipment.
-          </p>
-          <h1>Machinery & Electronics</h1>
-          <p>
-            We source automobiles and heavy machinery, ensuring the latest
-            technology.
-          </p>
-          <h1>Fashion & Human Hair</h1>
-          <p>
-            Our offerings include clothing, accessories, and 100% human hair
-            products.
-          </p>
-          <h1>Commercial Furnishings</h1>
-          <p>
-            We supply modern furniture and materials for residential and
-            commercial spaces.
-          </p>
-          <h1>Consulting Services</h1>
-          <p>
-            We provide consulting to optimize operations and pride ourselves on
-            quality and customer satisfaction.
+          <p className="text-base">
+            At Birara Dragon Bridge General Trading, we are dedicated to
+            delivering high-quality products and services across multiple
+            industries. Our extensive offerings include essential medical
+            supplies, such as scrubs and equipment, to support healthcare
+            professionals. In the machinery and electronics sector, we provide
+            the latest automobiles and heavy machinery, ensuring access to
+            cutting-edge technology. Our fashion line features stylish clothing,
+            accessories, and 100% human hair products, catering to diverse
+            customer preferences. We also supply modern furnishings for both
+            residential and commercial spaces. Additionally, our expert
+            consulting services aim to optimize operations, with a strong
+            commitment to quality and customer satisfaction.
           </p>
         </div>
       </div>
