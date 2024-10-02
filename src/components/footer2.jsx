@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/images/smalllogo2.png";
+import logo from "../assets/images/whitelogo.png";
 import { X, Menu, Facebook, Instagram, Youtube, Send } from "lucide-react";
 
 export default function Footer2() {
   return (
     <div className="bg-sky-900 text-gray-100 p-6">
       <div>
-        <img src={logo} className="bg-white p-1 rounded" alt="" />
+        <img src={logo} className="w-64 p-1 rounded" alt="" />
       </div>
       <div className="w-full space-y-4 ms:space-y-0  ms:grid grid-cols-3 py-3">
         <div>
