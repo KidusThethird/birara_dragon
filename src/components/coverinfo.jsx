@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 
 const content = [
   {
-    title: "Construction Materials & Furnishings",
+    title: "Medical Supplies & Equipment",
     description:
-      "High-quality building materials and modern furnishings for residential and commercial projects, combining durability and style.",
+      "Supplying a wide range of medical products, including medial diagnostic machineries, premium-quality scrubs for top brands, medical devices, and essential equipment for hospitals and clinics.",
   },
   {
-    title: "Stylish Home Enhancements",
+    title: "Cars, Machinery & Electronics",
     description:
-      "Transform your space with modern decor and furnishings that elevate your home's aesthetic and functionality.",
+      "Sourcing and providing automobiles, heavy machinery, and electronics for industrial, commercial, and personal use, including advanced technology and gadgets.",
   },
   {
-    title: "Efficient Machinery Shipping Solutions",
+    title: " Fashion, Apparel, Human Hair & Skincare.",
     description:
-      "Streamlined shipping services for heavy machinery, ensuring safe and timely delivery to your industrial and commercial sites.",
+      "Offering wholesale fashion items, including clothing, shoes, accessories, and 100% human hair products to cater to the latest global trends. We also provide skincare products, including options for anyone looking to customize their own formulas.",
   },
   // {
   //   title: "Elegant Tiles & Home Accents",
@@ -23,15 +23,20 @@ const content = [
   //     "Explore a stunning selection of tiles and home decor solutions to elevate your living spaces with style and sophistication.",
   // },
   {
-    title: "Radiant Beauty Essentials",
+    title: "Home, Office, Commercial Furnishings & Building Materials",
     description:
-      "Discover an exquisite range of beauty products designed to enhance your natural glow and elevate your skincare routine.",
+      "Supplying modern furniture, fixtures, decor, and high-quality building materials for residential, office, and commercial spaces, ensuring both functionality and style.",
   },
-  {
-    title: "Medical Supplies & Equipment",
-    description:
-      "Supplying a wide range of medical products, including medial diagnostic machineries, premium-quality scrubs for top brands, medical devices, and essential equipment for hospitals and clinics.",
-  },
+  // {
+  //   title: "General Trading & Wholesale Products",
+  //   description:
+  //     "Offering a variety of wholesale products ranging from consumer goods to specialized industrial materials, with access to global suppliers.",
+  // },
+  // {
+  //   title: "Business Consulting & Sourcing Services",
+  //   description:
+  //     " Providing expert consulting and global sourcing solutions to help businesses expand, optimize operations, and access international markets effectively.",
+  // },
 ];
 
 const letterAnimation = {

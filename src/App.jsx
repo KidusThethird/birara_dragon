@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import NavBar from "./components/navbar";
-import CoverImage01 from "./assets/images/new2/img001.jpg";
-import CoverImage02 from "./assets/images/new2/img02.jpg";
-import CoverImage03 from "./assets/images/new2/img03.jpg";
-import CoverImage04 from "./assets/images/new2/img04.jpg";
-import CoverImage05 from "./assets/images/new2/img05.jpg";
+import CoverImage01 from "./assets/images/new2/img05.jpg";
+import CoverImage02 from "./assets/images/new2/img07.jpg";
+import CoverImage03 from "./assets/images/new2/img04.jpg";
+import CoverImage04 from "./assets/images/new2/img02.jpg";
+import CoverImage06 from "./assets/images/new2/img05mob.jpg";
+import CoverImage07 from "./assets/images/new2/img07mob.jpg";
 
 import AboutUs from "./components/aboutus";
 import CoverInfo from "./components/coverinfo";
@@ -46,13 +47,8 @@ function App() {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
-  const images = [
-    CoverImage01,
-    CoverImage02,
-    CoverImage03,
-    CoverImage04,
-    CoverImage05,
-  ];
+  const images = [CoverImage01, CoverImage02, CoverImage03, CoverImage04];
+  const imagesMob = [CoverImage06, CoverImage07, CoverImage03, CoverImage04];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -84,7 +80,13 @@ function App() {
         {CompName === "Home" && (
           <div
             className="bg-cover bg-center h-full transition-opacity duration-700"
-            style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+            style={{
+              backgroundImage: `url(${
+                window.innerWidth < 640
+                  ? imagesMob[currentImageIndex]
+                  : images[currentImageIndex]
+              })`,
+            }}
           >
             <div className="absolute inset-0 bg-black opacity-40"></div>
           </div>
