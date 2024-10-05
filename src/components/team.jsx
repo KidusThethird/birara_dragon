@@ -25,20 +25,6 @@ export default function Team() {
 
         <div className="p-8 border-2 border-sky-900 rounded-lg">
           <div>
-            <img src={Img2} alt="" />
-          </div>
-          <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">
-              Tiziana Huang
-            </h1>{" "}
-            <h1 className="text-center font-semibold ">
-              Logistics and Supply chain coordinator
-            </h1>
-          </div>
-        </div>
-
-        <div className="p-8 border-2 border-sky-900 rounded-lg">
-          <div>
             <img src={Img3} alt="" />
           </div>
           <div className="w-full flex flex-col">
@@ -47,6 +33,20 @@ export default function Team() {
             </h1>{" "}
             <h1 className="text-center font-semibold ">
               Chief Operating Officer
+            </h1>
+          </div>
+        </div>
+
+        <div className="p-8 border-2 border-sky-900 rounded-lg">
+          <div>
+            <img src={Img2} alt="" />
+          </div>
+          <div className="w-full flex flex-col">
+            <h1 className="text-center text-lg font-playwrite">
+              Tiziana Huang
+            </h1>{" "}
+            <h1 className="text-center font-semibold ">
+              Logistics and Supply chain coordinator
             </h1>
           </div>
         </div>
