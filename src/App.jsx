@@ -78,7 +78,7 @@ function App() {
             className="bg-cover bg-center h-full transition-opacity duration-700"
             style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
           >
-            <div className="absolute inset-0 bg-black opacity-70"></div>
+            <div className="absolute inset-0 bg-black opacity-40"></div>
           </div>
         )}
         {CompName === "Home" ? (
