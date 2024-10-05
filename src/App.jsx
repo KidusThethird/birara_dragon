@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import NavBar from "./components/navbar";
-import CoverImage01 from "./assets/images/new2/img01.jpg";
+import CoverImage01 from "./assets/images/new2/img001.jpg";
 import CoverImage02 from "./assets/images/new2/img02.jpg";
 import CoverImage03 from "./assets/images/new2/img03.jpg";
 import CoverImage04 from "./assets/images/new2/img04.jpg";
+import CoverImage05 from "./assets/images/new2/img05.jpg";
+
 import AboutUs from "./components/aboutus";
 import CoverInfo from "./components/coverinfo";
 import HomeFooter from "./components/home_footer";
@@ -44,7 +46,13 @@ function App() {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
-  const images = [CoverImage01, CoverImage02, CoverImage03, CoverImage04];
+  const images = [
+    CoverImage01,
+    CoverImage02,
+    CoverImage03,
+    CoverImage04,
+    CoverImage05,
+  ];
 
   useEffect(() => {
     const intervalId = setInterval(() => {

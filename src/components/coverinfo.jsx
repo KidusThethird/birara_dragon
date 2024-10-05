@@ -27,6 +27,11 @@ const content = [
     description:
       "Discover an exquisite range of beauty products designed to enhance your natural glow and elevate your skincare routine.",
   },
+  {
+    title: "Medical Supplies & Equipment",
+    description:
+      "Supplying a wide range of medical products, including medial diagnostic machineries, premium-quality scrubs for top brands, medical devices, and essential equipment for hospitals and clinics.",
+  },
 ];
 
 const letterAnimation = {
