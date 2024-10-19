@@ -1,12 +1,56 @@
 import React from "react";
 import logo from "../assets/images/whitelogo.png";
-import { X, Menu, Facebook, Instagram, Youtube, Send } from "lucide-react";
+import whatsapp from "../assets/images/whatsapplogo.png";
+
+import {
+  X,
+  Menu,
+  Facebook,
+  Instagram,
+  Youtube,
+  Send,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 export default function Footer2() {
   return (
     <div className="bg-sky-900 text-gray-100 p-6">
-      <div>
-        <img src={logo} className="w-64 p-1 rounded" alt="" />
+      <div className=" lg:grid grid-cols-2">
+        <img src={logo} className="w-64 p-1 rounded " alt="" />
+        <div>
+          <div className="w-full justify-between md:flex space-y-4 gap-10 ">
+            <div className=" space-y-5  ">
+              <div className="flex space-x-5">
+                {" "}
+                <Phone />
+                <h1>+8619700356386</h1>
+              </div>
+
+              <div className="flex space-x-5">
+                {" "}
+                <img src={whatsapp} className="w-8 h-8 my-auto" alt="" />
+                <div>
+                  {" "}
+                  <h1>+8619700356386</h1>
+                  <h1>+8613098393670</h1>
+                </div>
+              </div>
+            </div>
+            <div className="flex space-x-2  w-fit ">
+              <div className="">
+                <MapPin size={32} className="md:m-2" />
+              </div>
+              <div className="w-3/4 ">
+                <h1>China: 深圳市南山区同方科兴科学园F区3201</h1>
+                <h1 className="text-sm">
+                  Hongkong Branch: 2301, BAYFIELD BUILDING 99 HENNESSY ROAD
+                  WANCHAI
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="w-full space-y-4 ms:space-y-0  ms:grid grid-cols-3 py-3">
         <div>
