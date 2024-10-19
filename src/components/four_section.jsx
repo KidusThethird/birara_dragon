@@ -20,7 +20,7 @@ import Image08 from "../assets/images/new/four/img11.jpg";
 
 export default function FourSection() {
   return (
-    <div className="text-gray-800 font-montserrat">
+    <div className="text-gray-800  font-sans">
       <div>
         <div className="w-full md:grid grid-cols-2">
           <div className="my-auto">

@@ -7,6 +7,7 @@ export default {
         playwrite: ['"Playwrite DE Grund"', "sans-serif"],
         oswald: ['"Oswald"', "sans-serif"], // Add your font here
         montserrat: ["Montserrat", "sans-serif"],
+        sans: ['"Open Sans"', "sans-serif"],
       },
     },
     screens: {

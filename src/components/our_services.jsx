@@ -10,7 +10,7 @@ import {
 
 export default function OurServices() {
   return (
-    <div className="w-full py-5">
+    <div className="w-full py-5 font-sans">
       <div className="w-full flex py-6">
         <h1 className="w-fit underline mx-auto text-3xl font-semibold text-sky-900">
           Our Services

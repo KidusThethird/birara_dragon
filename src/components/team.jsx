@@ -8,7 +8,7 @@ export default function Team() {
   return (
     <div>
       <div className="w-full flex py-6">
-        <h1 className="w-fit underline mx-auto text-3xl font-semibold text-sky-900">
+        <h1 className="w-fit underline mx-auto text-3xl font-sans text-sky-900">
           Our Team
         </h1>
       </div>
@@ -18,8 +18,8 @@ export default function Team() {
             <img src={Img1} alt="" />
           </div>
           <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">Feven Birara</h1>{" "}
-            <h1 className="text-center font-semibold ">General Manager</h1>
+            <h1 className="text-center text-lg font-sans">Feven Birara</h1>{" "}
+            <h1 className="text-center font-sans ">General Manager</h1>
           </div>
         </div>
 
@@ -28,12 +28,8 @@ export default function Team() {
             <img src={Img3} alt="" />
           </div>
           <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">
-              Daniele Pinti
-            </h1>{" "}
-            <h1 className="text-center font-semibold ">
-              Chief Operating Officer
-            </h1>
+            <h1 className="text-center text-lg font-sans">Daniele Pinti</h1>{" "}
+            <h1 className="text-center font-sans ">Chief Operating Officer</h1>
           </div>
         </div>
 
@@ -42,10 +38,8 @@ export default function Team() {
             <img src={Img2} alt="" />
           </div>
           <div className="w-full flex flex-col">
-            <h1 className="text-center text-lg font-playwrite">
-              Tiziana Huang
-            </h1>{" "}
-            <h1 className="text-center font-semibold ">
+            <h1 className="text-center text-lg font-sans">Tiziana Huang</h1>{" "}
+            <h1 className="text-center font-sans ">
               Logistics and Supply chain coordinator
             </h1>
           </div>

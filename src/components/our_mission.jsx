@@ -6,7 +6,7 @@ export default function OurMission() {
       <div className="md:grid grid-cols-2">
         <div className="p-16 space-y-7">
           <h1 className="text-2xl font-semibold">Our Mission</h1>
-          <h1>
+          <h1 className="font-sans">
             At Birara Dragon Bridge General Trading, our mission is to enhance
             lives and empower businesses by delivering high-quality products and
             exceptional services across a wide range of sectors. We are
@@ -21,7 +21,7 @@ export default function OurMission() {
           </h1>
         </div>
 
-        <div className="m-8">
+        <div className="m-8 font-sans">
           <div className="grid grid-cols-2 gap-5">
             <div className="border-0 border-sky-900 p-4 rounded shadow-2xl">
               <Activity size={80} className="mx-auto text-sky-900" />

@@ -15,7 +15,7 @@ import {
 
 export default function Footer2() {
   return (
-    <div className="bg-sky-900 text-gray-100 p-6">
+    <div className="bg-sky-900 text-gray-100 p-6 font-sans">
       <div className=" lg:grid grid-cols-2">
         <img src={logo} className="w-64 p-1 rounded " alt="" />
         <div>
@@ -55,7 +55,7 @@ export default function Footer2() {
       <div className="w-full space-y-4 ms:space-y-0  ms:grid grid-cols-3 py-3">
         <div>
           <div>
-            <h1 className=" font-semibold py-2">
+            <h1 className="  py-2">
               At Birara Dragon Bridge General Trading, our mission is to enhance
               lives and empower businesses by delivering high-quality products
               and exceptional services across a wide range of sectors.{" "}

@@ -3,7 +3,7 @@ import { Grid2x2Check, Handshake, WandSparkles } from "lucide-react";
 
 export default function Break03() {
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <div className="w-full space-y-3 ms:space-y-0 ms:grid grid-cols-2 lmd:grid-cols-3 gap-4 p-5">
         <div className="grid grid-cols-4">
           <div className="col-span-1">
