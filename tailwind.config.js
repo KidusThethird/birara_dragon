@@ -8,6 +8,7 @@ export default {
         oswald: ['"Oswald"', "sans-serif"], // Add your font here
         montserrat: ["Montserrat", "sans-serif"],
         sans: ['"Open Sans"', "sans-serif"],
+        serif: ["Merriweather", "serif"],
       },
     },
     screens: {

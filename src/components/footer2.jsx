@@ -15,7 +15,7 @@ import {
 
 export default function Footer2() {
   return (
-    <div className="bg-sky-900 text-gray-100 p-6 font-sans">
+    <div className="bg-sky-900 text-gray-100 p-6 font-serif">
       <div className=" lg:grid grid-cols-2">
         <img src={logo} className="w-64 p-1 rounded " alt="" />
         <div>

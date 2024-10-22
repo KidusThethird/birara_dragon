@@ -5,7 +5,7 @@ import { Phone, MapPin } from "lucide-react";
 
 const ContactUs = () => {
   return (
-    <div className="bg-gray-50 min-h-screen flex items-center justify-center">
+    <div className="bg-gray-50 min-h-screen flex items-center justify-center font-serif">
       <div className="bg-white shadow-lg rounded-lg max-w-4xl w-full p-6 mt-14 md:mt-32">
         <div className="flex justify-center mb-6 ">
           <img src={logo} alt="Company Logo" className="w-64 p-1 rounded" />

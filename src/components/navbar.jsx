@@ -51,7 +51,7 @@ export default function NavBar() {
             <img src={logo} alt="" className="w-3/4 " />
           </div>
           <div className=" my-auto col-span-5 w-full ">
-            <div className="flex  justify-between px-10  font-sans">
+            <div className="flex  justify-between px-10  font-serif">
               <div className=" space-x-7">
                 {" "}
                 <a
@@ -61,7 +61,7 @@ export default function NavBar() {
                   }`}
                 >
                   Home
-                </a>
+                </a>{" "}
                 <a
                   href="/about"
                   className={`hover:text-sky-600 hover:scale-105 duration-100 ${
@@ -100,7 +100,7 @@ export default function NavBar() {
         </div>
         {/* <div className="hidden md:block border-b-2 bg-yellow-200 border-gray-300 w-5/6 mx-auto"></div> */}
 
-        <div className="block md:hidden relative w-full ">
+        <div className="block md:hidden relative w-full font-serif">
           <div
             onClick={toggleDrawer}
             className="flex cursor-pointer justify-between px-4 bg-gray-400 text-sky-900"

@@ -66,7 +66,7 @@ export default function CoverInfo() {
     <div className="text-white pt-24">
       <div className="sm:w-1/2 mx-6 my-16 space-y-6 py-6">
         <motion.div
-          className="text-3xl sm:text-5xl font-semibold font-sans"
+          className="text-3xl sm:text-5xl font-semibold font-serif"
           variants={staggeredAnimation}
           initial="initial"
           animate="animate"
@@ -79,7 +79,7 @@ export default function CoverInfo() {
         </motion.div>
 
         <motion.h2
-          className="text-base sm:text-xl font-sans"
+          className="text-base sm:text-xl font-serif"
           initial={{ opacity: 0, y: 20 }} // Starting state for description
           animate={{ opacity: 1, y: 0 }} // End state
           exit={{ opacity: 0, y: 20 }} // Exit state

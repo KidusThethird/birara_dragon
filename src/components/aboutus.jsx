@@ -4,7 +4,7 @@ import logo from "../assets/images/logo01.png";
 
 export default function AboutUs() {
   return (
-    <div className="z-10 relative overflow-hidden ">
+    <div className="z-10 relative overflow-hidden font-serif">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-sky-400 via-gray-100 to-white opacity-25 z-0"></div>
 
