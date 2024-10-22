@@ -4,11 +4,11 @@ import Image02 from "../assets/images/new/four/img02.png";
 
 import Image03 from "../assets/images/new/four/img03.png";
 
-import Image05 from "../assets/images/new/four/img04.png";
+import Image05 from "../assets/images/new/four/img15.jpg";
 import Image04 from "../assets/images/four/img04.jpg";
-import Image06 from "../assets/images/new/four/img05.png";
-import Image07 from "../assets/images/new/four/img09.jpg";
-import Image08 from "../assets/images/new/four/img10.jpg";
+import Image06 from "../assets/images/new/four/img16.jpg";
+import Image07 from "../assets/images/new/four/img17.jpg";
+import Image08 from "../assets/images/new/four/img18.jpg";
 
 //import Image02 from "../assets/images/four/img02.jpg";
 //import Image03 from "../assets/images/four/img03.jpg";

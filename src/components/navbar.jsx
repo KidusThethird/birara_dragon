@@ -20,6 +20,12 @@ export default function NavBar() {
       break;
   }
 
+  const scrollToContact = () => {
+    if (contactSectionRef.current) {
+      contactSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="fixed w-full ">
       <div class="hidden md:flex bg-sky-900 w-full h-10  justify-end items-center">
@@ -83,7 +89,7 @@ export default function NavBar() {
               </div>{" "}
               <div>
                 <a
-                  href=""
+                  href="/contact"
                   className="hover:text-sky-600 hover:bg-gray-200 bg-sky-600 p-2 rounded hover:scale-105 duration-100"
                 >
                   Contact Us
@@ -94,7 +100,7 @@ export default function NavBar() {
         </div>
         {/* <div className="hidden md:block border-b-2 bg-yellow-200 border-gray-300 w-5/6 mx-auto"></div> */}
 
-        <div className="block md:hidden relative w-full font-sans">
+        <div className="block md:hidden relative w-full ">
           <div
             onClick={toggleDrawer}
             className="flex cursor-pointer justify-between px-4 bg-gray-400 text-sky-900"
@@ -143,7 +149,7 @@ export default function NavBar() {
                 Team
               </a>
 
-              <h1>Contact Us</h1>
+              <a href="/contact"> Contact Us</a>
             </div>
           </motion.div>
         </div>

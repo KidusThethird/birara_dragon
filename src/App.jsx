@@ -20,6 +20,7 @@ import Footer2 from "./components/footer2";
 import OurServices from "./components/our_services";
 import Services from "./routes/services";
 import OurTeam from "./routes/ourteam";
+import ContactUs from "./routes/contact";
 import { ArrowBigUp } from "lucide-react";
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
       Component = OurTeam;
       break;
     case "/contact":
-      Component = Contact;
+      Component = ContactUs;
       break;
   }
 
