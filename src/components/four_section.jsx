@@ -1,22 +1,16 @@
 import React from "react";
-import Image01 from "../assets/images/new/four/img01.png";
-import Image02 from "../assets/images/new/four/img12.jpg";
 
-import Image03 from "../assets/images/new/four/img13.jpg";
+// import Image01 from "../assets/images/new/four/img01.png";
+// import Image02 from "../assets/images/new/four/img12.jpg";
 
-import Image04 from "../assets/images/new/four/img14.jpg";
-//import Image04 from "../assets/images/four/img04.jpg";
-import Image06 from "../assets/images/new/four/img05.png";
-import Image07 from "../assets/images/new/four/img06.png";
-import Image08 from "../assets/images/new/four/img11.jpg";
+// import Image03 from "../assets/images/new/four/img13.jpg";
 
-//import Image02 from "../assets/images/four/img02.jpg";
-//import Image03 from "../assets/images/four/img03.jpg";
+// import Image04 from "../assets/images/new/four/img14.jpg";
 
-// import Image05 from "../assets/images/four/img05.jpg";
-// import Image06 from "../assets/images/four/img06.jpg";
-// import Image07 from "../assets/images/four/img07.jpg";
-// import Image08 from "../assets/images/four/img08.jpg";
+import Image01 from "../assets/images/new/four/img15.jpg";
+import Image02 from "../assets/images/new/four/img16.jpg";
+import Image03 from "../assets/images/new/four/img17.jpg";
+import Image04 from "../assets/images/new/four/img18.jpg";
 
 export default function FourSection() {
   return (
