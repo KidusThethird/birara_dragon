@@ -17,7 +17,10 @@ export default function OurServices() {
         </h1>
       </div>
       <div className="space-y-5 sm:space-y-0 sm:grid grid-cols-2 mdd:grid-cols-3 gap-8 px-7 w-full  p-3">
-        <div className="hover:text-sky-900 hover:bg-gray-100 duration-150 cursor-pointer bg-sky-900  text-gray-100 p-8 rounded shadow-xl shadow-gray-600">
+        <a
+          href="/details01"
+          className="hover:text-sky-900 hover:bg-gray-100 duration-150 cursor-pointer bg-sky-900  text-gray-100 p-8 rounded shadow-xl shadow-gray-600"
+        >
           <div className=" flex">
             <ShieldPlus size={50} className="w-fit" />
           </div>
@@ -32,7 +35,7 @@ export default function OurServices() {
               clinics.
             </h1>
           </div>
-        </div>
+        </a>
 
         <div className="bg-sky-900 text-gray-100 p-8 rounded shadow-xl shadow-gray-600 hover:text-sky-900 hover:bg-gray-100 duration-150 cursor-pointer">
           <div className=" flex">

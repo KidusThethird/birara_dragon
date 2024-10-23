@@ -23,6 +23,8 @@ import OurTeam from "./routes/ourteam";
 import ContactUs from "./routes/contact";
 import { ArrowBigUp } from "lucide-react";
 
+import Details01 from "./routes/service_details/details01";
+
 function App() {
   let Component = "test";
   let CompName = "blank";
@@ -43,6 +45,9 @@ function App() {
       break;
     case "/contact":
       Component = ContactUs;
+      break;
+    case "/details01":
+      Component = Details01;
       break;
   }
 
