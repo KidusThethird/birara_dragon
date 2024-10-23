@@ -17,25 +17,27 @@ export default function OurServices() {
         </h1>
       </div>
       <div className="space-y-5 sm:space-y-0 sm:grid grid-cols-2 mdd:grid-cols-3 gap-8 px-7 w-full  p-3">
-        <a
-          href="/details01"
+        <div
+          //href="/details01"
           className="hover:text-sky-900 hover:bg-gray-100 duration-150 cursor-pointer bg-sky-900  text-gray-100 p-8 rounded shadow-xl shadow-gray-600"
         >
-          <div className=" flex">
-            <ShieldPlus size={50} className="w-fit" />
-          </div>
-          <div>
-            <h1 className="my-3 text-2xl">Medical Supplies & Equipment</h1>
-          </div>
-          <div>
-            <h1>
-              Supplying a wide range of medical products, including medial
-              diagnostic machineries, premium-quality scrubs for top brands,
-              medical devices, and essential equipment for hospitals and
-              clinics.
-            </h1>
-          </div>
-        </a>
+          <a href="/details01">
+            <div className=" flex">
+              <ShieldPlus size={50} className="w-fit" />
+            </div>
+            <div>
+              <h1 className="my-3 text-2xl">Medical Supplies & Equipment</h1>
+            </div>
+            <div>
+              <h1>
+                Supplying a wide range of medical products, including medial
+                diagnostic machineries, premium-quality scrubs for top brands,
+                medical devices, and essential equipment for hospitals and
+                clinics.
+              </h1>
+            </div>
+          </a>
+        </div>
 
         <div className="bg-sky-900 text-gray-100 p-8 rounded shadow-xl shadow-gray-600 hover:text-sky-900 hover:bg-gray-100 duration-150 cursor-pointer">
           <div className=" flex">

@@ -55,7 +55,11 @@ export default function Details01() {
         </div>{" "}
         <div>
           <div>
-            <img src={Image01} className="w-3/4 mx-auto" alt="" />
+            <img
+              src={Image01}
+              className="w-3/4 mx-auto shadow-2xl rounded-xl"
+              alt=""
+            />
           </div>
           <div className="w-3/4 mx-auto px-1 ">
             <h1>
