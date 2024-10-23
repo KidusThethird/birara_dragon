@@ -77,7 +77,7 @@ export default function Details01() {
           </h1>
         </div>
 
-        <div className="ms:grid grid-cols-2 mmd:grid-cols-3 gap-9 mx-auto w-fit ">
+        <div className="grid ms:grid-cols-2 md:grid-cols-2 lmd:grid-cols-3 gap-9 mx-auto w-fit ">
           {data.map((item, index) => (
             <div className=" rounded-2xl group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className=" w-full">
