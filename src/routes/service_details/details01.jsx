@@ -104,12 +104,12 @@ export default function Details01() {
                 <p className="line-clamp-4 pt-12 mb-3 text-sm  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"></p>
 
                 <div className="py-2 px-3.5 font-com text-sm capitalize  shadow ">
-                  <h1 className="text-2xl text-left text-blue-900 py-3">
+                  <h1 className="md:text-2xl text-left text-blue-900 py-3">
                     {item.type}
                   </h1>
                 </div>
                 <div>
-                  <h1>{item.text}</h1>
+                  <h1 className="text-sm ms:text-base">{item.text}</h1>
                 </div>
               </div>
             </div>
