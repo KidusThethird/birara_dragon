@@ -19,37 +19,37 @@ export default function OurServices() {
   const data = [
     {
       title: "Medical Supplies & Equipment",
-      type: "Porta Cabin",
+      link: "details01",
       text: " Supplying a wide range of medical products, including medial diagnostic machineries, premium-quality scrubs for top brands, medical devices, and essential equipment for hospitals and clinics.",
       img: Image01,
     },
     {
       title: "Cars, Machinery & Electronics",
-      type: "Portable Toilets",
+      link: "Portable Toilets",
       text: "Sourcing and providing automobiles, heavy machinery, and electronics for industrial, commercial, and personal use, including advanced technology and gadgets.",
       img: Image02,
     },
     {
       title: "Fashion, Apparel, Human Hair & Skincare",
-      type: "Cladding",
+      link: "Cladding",
       text: "Offering wholesale fashion items, including clothing, shoes, accessories, and 100% human hair products to cater to the latest global trends. We also provide skincare products, including options for anyone looking to customize their own formulas.",
       img: Image03,
     },
     {
       title: "Home, Office, Commercial Furnishings & Building Materials",
-      type: "Cladding",
+      link: "Cladding",
       text: "Supplying modern furniture, fixtures, decor, and high-quality building materials for residential, office, and commercial spaces, ensuring both functionality and style.",
       img: Image04,
     },
     {
       title: "General Trading & Wholesale Products",
-      type: "Cladding",
+      link: "Cladding",
       text: "Offering a variety of wholesale products ranging from consumer goods to specialized industrial materials, with access to global suppliers.",
       img: Image05,
     },
     {
       title: "Business Consulting & Sourcing Services",
-      type: "Cladding",
+      link: "Cladding",
       text: "Providing expert consulting and global sourcing solutions to help businesses expand, optimize operations, and access international markets effectively.",
       img: Image06,
     },
@@ -95,7 +95,10 @@ export default function OurServices() {
 
             ///////////////////////////////////////////////////
 
-            <div className="bg-sky-900 rounded-2xl h-80 sm:h-[280px] md:h-[280px]  lg:h-[350px] max-w-lg mx-auto group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <a
+              href={`/${item.link}`}
+              className="bg-sky-900 rounded-2xl h-80 sm:h-[280px] md:h-[280px]  lg:h-[350px] max-w-lg mx-auto group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+            >
               <div className="w-full">
                 <img
                   className="group-hover:translate-y-[-60%] translate-y-0 h-full w-full object-cover transition-transform duration-500"
@@ -119,7 +122,7 @@ export default function OurServices() {
                   </h1>
                 </div>
               </div>
-            </div>
+            </a>
 
             //////////////////////////////////
           );
