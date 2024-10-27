@@ -96,7 +96,7 @@ export default function Details01() {
           </h1>
         </div>
 
-        <div className="grid ms:grid-cols-2 md:grid-cols-2 lmd:grid-cols-3 gap-16 mx-auto w-fit p-7 ">
+        <div className="grid ms:grid-cols-2 md:grid-cols-2 lmd:grid-cols-3 gap-16 mx-auto w-fit md:p-7 ">
           {data.map((item, index) => (
             <div className="bg-white shadow-2xl rounded">
               <div>
