@@ -26,7 +26,7 @@ export default function Details01() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-white text-xl md:text-2xl lg:text-3xl font-semibold text-center">
-            Business Consulting & Sourcing Services
+            Medical Supplies & Equipment
           </h1>
         </div>
       </div>

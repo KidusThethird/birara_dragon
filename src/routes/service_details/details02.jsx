@@ -1,11 +1,17 @@
 import React from "react";
-import Image01 from "../../assets/images/new/four/img15.jpg";
+import Image01 from "../../assets/images/selected/car/img01.png";
 import Image02 from "../../assets/images/new/four/img16.jpg";
 import Image03 from "../../assets/images/new/four/img17.jpg";
 import Image04 from "../../assets/images/new/four/img18.jpg";
 
-import Image06 from "../../assets/images/services/img01detail.jpg";
+import Image06 from "../../assets/images/services/img02detail.jpg";
 
+import NewImage01 from "../../assets/images/selected/car/img01.png";
+import NewImage02 from "../../assets/images/selected/car/img02.png";
+//import NewImage03 from "../../assets/images/selected/car/img03.png";
+import NewImage04 from "../../assets/images/selected/car/img04.png";
+import NewImage05 from "../../assets/images/selected/car/img05.png";
+import NewImage06 from "../../assets/images/selected/car/img06.png";
 import { div } from "framer-motion/client";
 
 export default function Details01() {
@@ -14,32 +20,27 @@ export default function Details01() {
       title: "Passenger Vehicles",
       type: "Machinery",
       text: "A wide selection of vehicles, from economical compact cars to high-end luxury models, meeting both personal and fleet needs.",
-      img: Image02,
+      img: NewImage06,
     },
     {
       title: "Commercial Trucks & Vans",
       type: "Machinery",
       text: "Sturdy, high-capacity vehicles ideal for business logistics, supporting efficient transport of goods.",
-      img: Image03,
+      img: NewImage02,
     },
-    {
-      title: "Patient Monitoring Devices",
-      type: "Machinery",
-      text: "Advanced devices for real-time monitoring, from vital sign monitors to ECG machines, essential for patient care.",
-      img: Image04,
-    },
+
     {
       title: "Construction Machinery",
       type: "Machinery",
       text: "Heavy-duty machinery such as excavators, bulldozers, and cranes, providing reliable solutions for large-scale construction projects.",
-      img: Image04,
+      img: NewImage04,
     },
 
     {
       title: "Home & Office Electronics",
       type: "Machinery",
       text: "The latest in tech, including laptops, tablets, and smart home devices, for enhanced connectivity and productivity.",
-      img: Image04,
+      img: NewImage05,
     },
     {
       title: "Industrial Equipment",
@@ -51,7 +52,7 @@ export default function Details01() {
       title: "Car Tires & LED Lighting",
       type: "Machinery",
       text: "Durable car tires for various vehicle types, alongside energy-efficient LED lighting solutions for residential, commercial, and industrial applications.",
-      img: Image04,
+      img: NewImage01,
     },
   ];
 

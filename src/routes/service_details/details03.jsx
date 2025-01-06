@@ -1,10 +1,16 @@
 import React from "react";
-import Image01 from "../../assets/images/new/four/img15.jpg";
+import Image01 from "../../assets/images/selected/fashion/img04.png";
 import Image02 from "../../assets/images/new/four/img16.jpg";
 import Image03 from "../../assets/images/new/four/img17.jpg";
 import Image04 from "../../assets/images/new/four/img18.jpg";
 
-import Image06 from "../../assets/images/services/img01detail.jpg";
+import Image06 from "../../assets/images/services/img03detail.jpg";
+
+import NewImage01 from "../../assets/images/selected/fashion/img01.png";
+import NewImage02 from "../../assets/images/selected/fashion/img02.png";
+import NewImage03 from "../../assets/images/selected/fashion/img03.png";
+import NewImage04 from "../../assets/images/selected/fashion/img04.png";
+import NewImage05 from "../../assets/images/selected/fashion/img05.png";
 
 import { div } from "framer-motion/client";
 
@@ -14,31 +20,31 @@ export default function Details01() {
       title: "Women’s Fashion",
       type: "Fashion",
       text: "Trend-driven women’s clothing, from casual wear to elegant evening gowns, appealing to a wide range of tastes and preferences.",
-      img: Image02,
+      img: NewImage01,
     },
     {
       title: "Men’s Fashion",
       type: "Fashion",
       text: "From business suits to laid-back weekend styles, our men’s fashion line offers both quality and versatility.",
-      img: Image02,
+      img: NewImage02,
     },
     {
       title: "Accessories & Footwear",
       type: "Fashion",
       text: "Fashion-forward handbags, shoes, and jewelry, catering to style-conscious consumers looking to complete their outfits.",
-      img: Image02,
+      img: NewImage03,
     },
     {
       title: "Human Hair Extensions & Wigs",
       type: "Fashion",
       text: "Premium-quality, natural human hair extensions and wigs available in various textures and colors for a seamless look.",
-      img: Image02,
+      img: NewImage04,
     },
     {
       title: "Children’s Apparel",
       type: "Fashion",
       text: "Comfortable, stylish clothing for kids, made with durability in mind for active wear at school and play.",
-      img: Image02,
+      img: NewImage05,
     },
   ];
 
