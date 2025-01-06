@@ -1,10 +1,16 @@
 import React from "react";
-import Image01 from "../../assets/images/new/four/img15.jpg";
+import Image01 from "../../assets/images/selected/general/img05.png";
 import Image02 from "../../assets/images/new/four/img16.jpg";
 import Image03 from "../../assets/images/new/four/img17.jpg";
 import Image04 from "../../assets/images/new/four/img18.jpg";
 
-import Image06 from "../../assets/images/services/img01detail.jpg";
+import Image06 from "../../assets/images/services/img05detail.jpg";
+
+import NewImage01 from "../../assets/images/selected/general/img01.png";
+import NewImage02 from "../../assets/images/selected/general/img02.png";
+import NewImage03 from "../../assets/images/selected/general/img03.png";
+import NewImage04 from "../../assets/images/selected/general/img04.png";
+import NewImage05 from "../../assets/images/selected/general/img05.png";
 
 import { div } from "framer-motion/client";
 
@@ -14,37 +20,31 @@ export default function Details01() {
       title: "Consumer Electronics",
       type: "Trading ",
       text: "A wide array of popular gadgets and electronics, from smartphones and tablets to headphones and wearable tech.",
-      img: Image02,
+      img: NewImage01,
     },
     {
       title: "Household Goods",
       type: "Trading ",
       text: "Daily essentials such as kitchenware, cleaning products, and organization tools, available for wholesale and retail.",
-      img: Image02,
+      img: NewImage02,
     },
     {
       title: "Industrial Raw Materials",
       type: "Trading ",
       text: "Quality metals, plastics, and chemicals, meeting the diverse needs of manufacturing and production sectors.",
-      img: Image02,
+      img: NewImage03,
     },
     {
       title: "Agricultural Produce",
       type: "Trading ",
       text: "Fresh, organic options from staple grains to exotic fruits, perfect for wholesalers and direct consumers.",
-      img: Image02,
+      img: NewImage04,
     },
     {
       title: "Cosmetic & Skincare Products",
       type: "Trading ",
       text: "Fresh, organic options from staple grains to exotic fruits, perfect for wholesalers and direct consumers.",
-      img: Image02,
-    },
-    {
-      title: "Car Tires & LED Lighting",
-      type: "Trading ",
-      text: "High-quality car tires for various models and LED lighting solutions for a variety of settings, providing reliable performance and energy efficiency.",
-      img: Image02,
+      img: NewImage05,
     },
   ];
 

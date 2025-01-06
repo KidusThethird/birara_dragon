@@ -1,10 +1,16 @@
 import React from "react";
-import Image01 from "../../assets/images/new/four/img15.jpg";
+import Image01 from "../../assets/images/selected/business/img04.png";
 import Image02 from "../../assets/images/new/four/img16.jpg";
 import Image03 from "../../assets/images/new/four/img17.jpg";
 import Image04 from "../../assets/images/new/four/img18.jpg";
 
-import Image06 from "../../assets/images/services/img01detail.jpg";
+import Image06 from "../../assets/images/services/img06detail.jpg";
+
+import NewImage01 from "../../assets/images/selected/business/img01.png";
+import NewImage02 from "../../assets/images/selected/business/img02.png";
+import NewImage03 from "../../assets/images/selected/business/img03.png";
+import NewImage04 from "../../assets/images/selected/business/img04.png";
+import NewImage05 from "../../assets/images/selected/business/img05.png";
 
 import { div } from "framer-motion/client";
 
@@ -14,31 +20,31 @@ export default function Details01() {
       title: "Market Entry Consulting",
       type: "Consulting",
       text: "Expert guidance to help businesses enter new markets with confidence, from understanding local regulations to consumer insights.",
-      img: Image02,
+      img: NewImage01,
     },
     {
       title: "Supplier & Vendor Sourcing",
       type: "Consulting",
       text: "Reliable sourcing of high-quality products and materials from trusted global suppliers, including items like car tires and LED lighting.",
-      img: Image02,
+      img: NewImage02,
     },
     {
       title: "Supply Chain Management",
       type: "Consulting",
       text: "Efficient logistics solutions, ensuring the timely and cost-effective delivery of goods from origin to destination.",
-      img: Image02,
+      img: NewImage03,
     },
     {
       title: "Quality Control Services",
       type: "Consulting",
       text: "Comprehensive quality checks for all products, including medical equipment and consumer goods, to meet clients’ exact standards before shipment.",
-      img: Image02,
+      img: NewImage04,
     },
     {
       title: "Export & Import Support",
       type: "Consulting",
       text: "Assistance with customs clearance, documentation, and regulatory compliance, simplifying international trade for clients.",
-      img: Image02,
+      img: NewImage05,
     },
   ];
 

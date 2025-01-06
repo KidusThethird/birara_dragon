@@ -1,10 +1,16 @@
 import React from "react";
-import Image01 from "../../assets/images/new/four/img15.jpg";
+import Image01 from "../../assets/images/selected/home/img04.png";
 import Image02 from "../../assets/images/new/four/img16.jpg";
 import Image03 from "../../assets/images/new/four/img17.jpg";
 import Image04 from "../../assets/images/new/four/img18.jpg";
 
-import Image06 from "../../assets/images/services/img01detail.jpg";
+import Image06 from "../../assets/images/services/img04detail.jpg";
+
+import NewImage01 from "../../assets/images/selected/home/img01.png";
+import NewImage02 from "../../assets/images/selected/home/img02.png";
+import NewImage03 from "../../assets/images/selected/home/img03.png";
+import NewImage04 from "../../assets/images/selected/home/img04.png";
+import NewImage05 from "../../assets/images/selected/home/img05.png";
 
 import { div } from "framer-motion/client";
 
@@ -14,31 +20,31 @@ export default function Details01() {
       title: "Home Furniture",
       type: "Furnishings ",
       text: "Cozy sofas, elegant dining sets, and bedroom essentials, all designed to elevate the ambiance of any home space.",
-      img: Image02,
+      img: NewImage01,
     },
     {
       title: "Office Desks & Seating",
       type: "Furnishings ",
       text: "Ergonomically designed office furniture that supports productivity and comfort for home and commercial offices alike.",
-      img: Image02,
+      img: NewImage02,
     },
     {
       title: "Construction Materials",
       type: "Furnishings ",
       text: "High-quality materials including tiles, wood, cement, and steel, ensuring durability and reliability for any building project.",
-      img: Image02,
+      img: NewImage03,
     },
     {
       title: "Home Decor & Lighting",
       type: "Furnishings ",
       text: "Stylish decor items, including LED lighting, rugs, and wall art, adding sophistication to personal and commercial spaces.",
-      img: Image02,
+      img: NewImage04,
     },
     {
       title: "Commercial Fixtures & Displays",
       type: "Furnishings ",
       text: "Customizable displays and fixtures for retail environments, designed to enhance product visibility and customer engagement.",
-      img: Image02,
+      img: NewImage05,
     },
   ];
 
