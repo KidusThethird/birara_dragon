@@ -24,6 +24,11 @@ import ContactUs from "./routes/contact";
 import { ArrowBigUp } from "lucide-react";
 
 import Details01 from "./routes/service_details/details01";
+import Details02 from "./routes/service_details/details02";
+import Details03 from "./routes/service_details/details03";
+import Details04 from "./routes/service_details/details04";
+import Details05 from "./routes/service_details/details05";
+import Details06 from "./routes/service_details/details06";
 
 function App() {
   let Component = "test";
@@ -48,6 +53,21 @@ function App() {
       break;
     case "/details01":
       Component = Details01;
+      break;
+    case "/details02":
+      Component = Details02;
+      break;
+    case "/details03":
+      Component = Details03;
+      break;
+    case "/details04":
+      Component = Details04;
+      break;
+    case "/details05":
+      Component = Details05;
+      break;
+    case "/details06":
+      Component = Details06;
       break;
   }
 

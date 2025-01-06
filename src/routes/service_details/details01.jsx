@@ -1,32 +1,58 @@
 import React from "react";
-import Image01 from "../../assets/images/new/four/img15.jpg";
+import Image01 from "../../assets/images/selected/medical/img05.png";
 import Image02 from "../../assets/images/new/four/img16.jpg";
 import Image03 from "../../assets/images/new/four/img17.jpg";
 import Image04 from "../../assets/images/new/four/img18.jpg";
 
 import Image06 from "../../assets/images/services/img01detail.jpg";
 
+import NewImage01 from "../../assets/images/selected/medical/img01.png";
+import NewImage02 from "../../assets/images/selected/medical/img02.png";
+import NewImage03 from "../../assets/images/selected/medical/img03.png";
+import NewImage04 from "../../assets/images/selected/medical/img04.png";
+import NewImage05 from "../../assets/images/selected/medical/img05.png";
+import NewImage06 from "../../assets/images/selected/medical/img06.png";
+
 import { div } from "framer-motion/client";
 
 export default function Details01() {
   const data = [
     {
-      title: "Building",
-      type: "Porta Cabin",
-      text: "Traderston is among the leading suppliers of portacabin in Dubai and UAE. Our range includes portal recreation rooms, canteens, villas, and office cabins.",
-      img: Image02,
+      title: "Scrubs & Medical Apparel",
+      type: "Medical",
+      text: "Comfortable, durable scrubs and lab coats, designed for long shifts, offering healthcare professionals both style and functionality",
+      img: NewImage01,
     },
     {
-      title: "Construction",
-      type: "Portable Toilets",
-      text: "We also supply portable toilets in all the Emirates of UAE. Among our varieties are GRP toilets, waterless toilets, portable restrooms, and trailer toilets.",
-      img: Image03,
+      title: "Surgical Instruments",
+      type: "Medical",
+      text: "Precision tools built for demanding surgical environments, including scalpels, forceps, and specialized instruments for complex procedures.",
+      img: NewImage02,
     },
     {
-      title: "Building and Construction",
-      type: "Cladding",
-      text: "We endeavor to provide high-quality cladding to clients in the region and beyond. Our cladding services include but are not limited to wood & aluminum cladding.",
-      img: Image04,
+      title: "Patient Monitoring Devices",
+      type: "Medical",
+      text: "Advanced devices for real-time monitoring, from vital sign monitors to ECG machines, essential for patient care.",
+      img: NewImage03,
+    },
+
+    {
+      title: "Diagnostic Imaging Equipment",
+      type: "Medical",
+      text: "High-end MRI, ultrasound, and X-ray machines, providing accurate diagnostic support to healthcare facilities.",
+      img: NewImage04,
+    },
+    {
+      title: "Disposable Medical Supplies: ",
+      type: "Medical",
+      text: "Essential items like gloves, masks, syringes, and IV bags, ensuring a steady supply for safe and sterile practices.",
+      img: NewImage05,
+    },
+    {
+      title: "Hospital Furniture & Beds",
+      type: "Medical",
+      text: "Adjustable hospital beds, stretchers, and carts designed to maximize patient comfort and support efficient workflows.",
+      img: NewImage06,
     },
   ];
 
@@ -51,20 +77,16 @@ export default function Details01() {
               <h1 class="text-lg  font-bold"></h1>
             </div>
             <h1 className="text-2xl md:text-4xl font-semibold py-5">
-              We Supply the Best Building Material and Construction Products in
-              UAE
+              We provide high quality medical supplies and equipment trusted by
+              healthcare professionals worldwide.
             </h1>
             <h1 class="leading-9">
-              Traderston General Trading Company Dubai is a leading importer and
-              distributor of various Building Material and Construction Products
-              from different parts of the world including Asia, Europe, Africa,
-              the Middle East, GCC, and the US. For nearly a decade we have
-              nurtured solid business relationships with our customers,
-              partners, and suppliers. We strive to deliver urgent and reliable
-              services, as well as consistently exceed goals and expectations.
-              Traderston deals with a wide range of Building Material and
-              Construction Products, designed to provide sustainable solutions
-              to our valued customers.
+              From advanced surgical tools to comfortable, durable scrubs, our
+              products are designed to support patient care and safety at every
+              level. With rigorous quality control and a broad selection, we
+              ensure that hospitals, clinics, and medical professionals have
+              access to the reliable resources they need, without the stress of
+              navigating multiple suppliers.
             </h1>
           </div>
         </div>{" "}
@@ -78,8 +100,8 @@ export default function Details01() {
           </div>
           <div className="w-3/4 mx-auto px-1 ">
             <h1>
-              Guaranteeing Strategic Sourcing & Supply Best Building Material
-              and Construction Products. We Bring the World Right to You
+              {/* Guaranteeing Strategic Sourcing & Supply Best Building Material
+              and Construction Products. We Bring the World Right to You */}
             </h1>
           </div>
         </div>
@@ -88,11 +110,11 @@ export default function Details01() {
       <div className="py-20 px-10 bg-gray-100 mt-4">
         <div className="py-6 mb-6">
           <h1 className="w-fit mx-auto text-3xl font-semibold">
-            Our Petroleum Lubricant Products Line
+            High quality medical supplies and equipment
           </h1>
           <h1 className="w-fit mx-auto">
-            Lubricating oils and greases for lubrication and protection in the
-            automotive, manufacturing, and agricultural industries.
+            Products are designed to support patient care and safety at every
+            level.
           </h1>
         </div>
 
