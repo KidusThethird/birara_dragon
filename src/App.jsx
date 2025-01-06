@@ -4,6 +4,8 @@ import CoverImage01 from "./assets/images/new2/img05.jpg";
 import CoverImage02 from "./assets/images/new2/img07.jpg";
 import CoverImage03 from "./assets/images/new2/img04.jpg";
 import CoverImage04 from "./assets/images/new2/img02.jpg";
+import CoverImage05 from "./assets/images/new2/img08.jpg";
+
 import CoverImage06 from "./assets/images/new2/img05mob.jpg";
 import CoverImage07 from "./assets/images/new2/img07mob.jpg";
 
@@ -29,6 +31,7 @@ import Details03 from "./routes/service_details/details03";
 import Details04 from "./routes/service_details/details04";
 import Details05 from "./routes/service_details/details05";
 import Details06 from "./routes/service_details/details06";
+import Details07 from "./routes/service_details/details07";
 
 function App() {
   let Component = "test";
@@ -69,12 +72,27 @@ function App() {
     case "/details06":
       Component = Details06;
       break;
+    case "/details07":
+      Component = Details07;
+      break;
   }
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
-  const images = [CoverImage01, CoverImage02, CoverImage03, CoverImage04];
-  const imagesMob = [CoverImage06, CoverImage07, CoverImage03, CoverImage04];
+  const images = [
+    CoverImage01,
+    CoverImage02,
+    CoverImage03,
+    CoverImage04,
+    CoverImage05,
+  ];
+  const imagesMob = [
+    CoverImage06,
+    CoverImage07,
+    CoverImage03,
+    CoverImage04,
+    CoverImage05,
+  ];
 
   useEffect(() => {
     const intervalId = setInterval(() => {

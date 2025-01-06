@@ -17,6 +17,7 @@ const content = [
     description:
       "Offering wholesale fashion items, including clothing, shoes, accessories, and 100% human hair products to cater to the latest global trends. We also provide skincare products, including options for anyone looking to customize their own formulas.",
   },
+
   // {
   //   title: "Elegant Tiles & Home Accents",
   //   description:
@@ -26,6 +27,11 @@ const content = [
     title: "Home, Office, Commercial Furnishings & Building Materials",
     description:
       "Supplying modern furniture, fixtures, decor, and high-quality building materials for residential, office, and commercial spaces, ensuring both functionality and style.",
+  },
+  {
+    title: "Coffee Beans and oil seeds Importer",
+    description:
+      "We specialize in the import of exceptional Ethiopian coffee and a range of high-quality oil seeds. ",
   },
   // {
   //   title: "General Trading & Wholesale Products",

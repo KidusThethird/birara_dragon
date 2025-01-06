@@ -16,6 +16,7 @@ import Image03 from "../assets/images/services/img03.jpg";
 import Image04 from "../assets/images/services/img04.jpg";
 import Image05 from "../assets/images/services/img05.jpg";
 import Image06 from "../assets/images/services/img06.jpg";
+import Image07 from "../assets/images/services/img07.jpg";
 
 export default function OurServices() {
   const data = [
@@ -56,6 +57,13 @@ export default function OurServices() {
       link: "details06",
       text: "Our consulting and sourcing services are designed to simplify your entry into new markets, with a focus on transparency, efficiency, and results. From navigating complex regulations to connecting ... ",
       img: Image06,
+    },
+
+    {
+      title: "Coffee Beans and oil seeds Importer",
+      link: "details07",
+      text: "We specialize in the import of exceptional Ethiopian coffee and a range of high-quality oil seeds. Our Ethiopian coffee is celebrated for its distinct flavors and aromas, sourced directly from ...  ",
+      img: Image07,
     },
   ];
   // const navigate = useNavigate();
