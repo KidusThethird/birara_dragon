@@ -1,6 +1,6 @@
 import React from "react";
 import HumanImage from "../assets/images/human.png";
-import Img1 from "../assets/images/team/img01.jpg";
+import Img1 from "../assets/images/team/img04.jpg";
 import Img2 from "../assets/images/team/img02.jpg";
 import Img3 from "../assets/images/team/img03.jpg";
 
