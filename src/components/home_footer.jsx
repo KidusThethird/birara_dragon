@@ -15,7 +15,7 @@ export default function HomeFooter() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 7000); // Change slide every 3 seconds
+    }, 3000); // Change slide every 3 seconds
 
     return () => clearInterval(intervalId); // Cleanup on unmount
   }, []);

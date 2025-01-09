@@ -97,7 +97,7 @@ function App() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 7000); // Change image every 7 seconds
+    }, 3000); // Change image every 7 seconds
 
     const handleScroll = () => {
       if (window.scrollY > 300) {

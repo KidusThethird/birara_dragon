@@ -63,7 +63,7 @@ export default function CoverInfo() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % content.length);
-    }, 7000); // Change text every 7 seconds
+    }, 3000); // Change text every 7 seconds
 
     return () => clearInterval(intervalId); // Cleanup on unmount
   }, []);
