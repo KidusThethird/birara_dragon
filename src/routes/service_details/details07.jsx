@@ -69,7 +69,7 @@ export default function Details01() {
     },
     {
       title: "Specialty Ethiopian Coffees",
-      type: "Coffee",
+      type: "",
       process: "",
       text: "Ethiopia Geisha Village (Gold Label, Red Label, Green Label) – High-grade Geisha with floral and fruity notes, offering select, sun-dried options for enhanced flavor.",
       text2:
@@ -80,7 +80,7 @@ export default function Details01() {
     },
     {
       title: "Roasted Coffee Brands",
-      type: "Coffee",
+      type: "",
       process: "",
       text: "We also offer roasted Ethiopian coffee, crafted to bring out the unique flavors of each variety. Available in light to dark roasts, our roasted coffee is ideal for specialty cafes and home brewers, preserving the distinct aroma and richness of Ethiopian beans.",
       text2: "",
@@ -89,7 +89,7 @@ export default function Details01() {
     },
     {
       title: "Peanut",
-      type: "Legume crop",
+      type: "",
       process: "",
       text: "Peanuts provide a good source of protein and healthy monounsaturated fats. Rich in vitamins E and B, magnesium, and folate, they support heart health and energy metabolism. Their antioxidants may combat oxidative stress, while fiber aids digestion and weight management.",
       text2: "",
@@ -98,7 +98,7 @@ export default function Details01() {
     },
     {
       title: "Sesame Seed (Humera)",
-      type: "Seed",
+      type: "",
       process: "",
       text: "Humera sesame seeds are rich in healthy fats, protein, and essential minerals like calcium and magnesium. They offer antioxidants that reduce inflammation and support skin health. Regular consumption can aid digestion, enhance bone health, and lower cholesterol levels.",
       text2: "",
@@ -107,7 +107,7 @@ export default function Details01() {
     },
     {
       title: "Sun Flower",
-      type: "Seed",
+      type: "",
       process: "",
       text: "Sunflower seeds are high in healthy fats, protein, and essential vitamins, including vitamin E. They promote heart health, reduce inflammation, and support skin health. Antioxidants enhance immune function, and their fiber content aids digestion and helps regulate blood sugar levels.",
       text2: "",
@@ -214,9 +214,16 @@ export default function Details01() {
                 <img className="rounded" src={item.img} />
               </div>
               <div className="md:col-span-3 p-4 space-y-3">
-                <h1 className="underline text-lg pb-3 text-sky-900 font-semibold">
-                  {item.title}
-                </h1>
+                <div className="flex space-x-4">
+                  <h1 className="underline text-lg pb-3 text-sky-900 font-semibold">
+                    {item.title}
+                  </h1>
+                  {item.type != "" && (
+                    <h1 className="bg-sky-600 text-sm text-white w-fit h-fit p-1 rounded-2xl">
+                      {item.type}
+                    </h1>
+                  )}
+                </div>
                 <h1>{item.process}</h1>
                 <h1>{item.text}</h1>
                 <h1>{item.text2}</h1>
