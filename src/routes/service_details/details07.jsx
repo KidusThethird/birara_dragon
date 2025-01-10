@@ -36,7 +36,7 @@ export default function Details01() {
       process: "Process: Both natural and washed",
       text: "Grown in the Guji Zone, this coffee has a fruity profile with hints of berries, stone fruit, and chocolate, with a full-bodied, rich mouthfeel and a hint of spice.",
 
-      text2: "",
+      text2: "Altitude: 1600 - 2300 meters (5249 - 7546 feet)",
       text3: "",
       img: NewImage02,
     },
@@ -71,11 +71,16 @@ export default function Details01() {
       title: "Specialty Ethiopian Coffees",
       type: "",
       process: "",
-      text: "Ethiopia Geisha Village (Gold Label, Red Label, Green Label) – High-grade Geisha with floral and fruity notes, offering select, sun-dried options for enhanced flavor.",
-      text2:
-        "Ethiopia Banzimajji G1 Geisha Wash – Elegant Geisha with bright acidity, delicate florals, and a smooth finish. 96-Hour Anaerobic Sun-Dried (Grana, Ethiopia) – Specialty coffee with tropical fruit notes and a layered complexity from anaerobic fermentation.",
-      text3:
-        "Jashephu Kochir G1 – Clean and crisp with citrus and floral hints.",
+      text: "",
+      text2: "",
+      text3: "",
+      text4: "",
+
+      c1: "Ethiopia Geisha Village (Gold Label, Red Label, Green Label) – High-grade Geisha with floral and fruity notes, offering select, sun-dried options for enhanced flavor.",
+      c2: "Ethiopia Banzimajji G1 Geisha Wash – Elegant Geisha with bright acidity, delicate florals, and a smooth finish.",
+      c3: "96-Hour Anaerobic Sun-Dried (Grana, Ethiopia) – Specialty coffee with tropical fruit notes and a layered complexity from anaerobic fermentation.",
+      c4: "Jashephu Kochir G1 – Clean and crisp with citrus and floral hints.",
+
       img: NewImage06,
     },
     {
@@ -224,10 +229,51 @@ export default function Details01() {
                     </h1>
                   )}
                 </div>
-                <h1>{item.process}</h1>
-                <h1>{item.text}</h1>
-                <h1>{item.text2}</h1>
-                <h1>{item.text3}</h1>
+
+                <h1>
+                  <span className="font-bold">{item.process.slice(0, 8)}</span>
+                  {item.process.slice(8)}
+                </h1>
+                <h1>
+                  {" "}
+                  {item.text != "" && (
+                    <span className="font-bold pr-2">Flavor Profile:</span>
+                  )}
+                  {item.text}
+                </h1>
+
+                {/* <h1>{item.text2}</h1> */}
+                <h1>
+                  <span className="font-bold">{item.text2.slice(0, 8)}</span>
+                  {item.text2.slice(8)}
+                </h1>
+                {item.c1 && (
+                  <div>
+                    <span className="font-bold">{item.c1.slice(0, 60)}</span>
+                    {item.c1.slice(60)}
+                  </div>
+                )}
+
+                {item.c2 && (
+                  <div>
+                    <span className="font-bold">{item.c2.slice(0, 35)}</span>
+                    {item.c2.slice(35)}
+                  </div>
+                )}
+                {item.c3 && (
+                  <div>
+                    <span className="font-bold">{item.c3.slice(0, 46)}</span>
+                    {item.c3.slice(46)}
+                  </div>
+                )}
+                {item.c4 && (
+                  <div>
+                    <span className="font-bold">{item.c4.slice(0, 21)}</span>
+                    {item.c4.slice(21)}
+                  </div>
+                )}
+
+                <h1></h1>
               </div>
             </div>
           ))}
