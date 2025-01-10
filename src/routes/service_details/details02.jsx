@@ -12,6 +12,8 @@ import NewImage02 from "../../assets/images/selected/car/img02.png";
 import NewImage04 from "../../assets/images/selected/car/img04.png";
 import NewImage05 from "../../assets/images/selected/car/img05.png";
 import NewImage06 from "../../assets/images/selected/car/img06.png";
+import NewImage07 from "../../assets/images/selected/car/img07.jpg";
+
 import { div } from "framer-motion/client";
 
 export default function Details01() {
@@ -46,7 +48,7 @@ export default function Details01() {
       title: "Industrial Equipment",
       type: "Machinery",
       text: "Specialized equipment for agriculture, manufacturing, and construction, from generators to assembly-line tools.",
-      img: Image04,
+      img: NewImage07,
     },
     {
       title: "Car Tires & LED Lighting",
